@@ -1,0 +1,168 @@
+.popupp-containerr {
+  display: none;
+    position: absolute;
+    top: -18%;
+    left: -45vh;
+    width: 78vh;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    height: 45vh;
+    transition: transform 2s;
+    border-radius:4px ;
+}
+.popupp-containerr:hover{
+transform: scale(0.7);
+}
+.overlay {
+  display: none; /* Hide overlay by default */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.close-btn {
+  cursor: pointer;
+  margin-top: 4px;
+  width: 83px;
+  height: 23px;
+  margin-left: 204px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  border-radius: 3px;
+}
+
+.scann{
+  cursor: pointer;
+  
+  width: 83px;
+  height: 23px;
+  margin-left: 6px;
+  background-color:#49aeff; ;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+}
+
+.imgg1{
+  height: 23px;
+  margin-left: -347px;
+  margin-top: -14px;
+}
+
+.sec{
+  margin-top: -23px;
+  color: black;
+  margin-left: -68px;
+}
+.linee{
+  margin-top: -18px;
+}
+.linee1{
+  color: red;
+  margin-top: 10px;
+}
+
+
+.linee2{
+  color: red;
+  margin: -36px;
+  margin-top: -22px;
+}
+
+.linee4{
+color: rgb(0, 0, 0);
+}
+.linee5{
+color: rgb(14, 173, 236);
+margin-top: -21px;
+}
+.imgg2{
+  height: 57px;
+  width: 96px;
+  margin-left: 7px;
+  margin-top: -76px;
+  border: 2px solid black;
+}
+
+.imgg3{
+  height: 34px;
+    margin-left: 10px;
+    margin-top: 83px;
+    padding-top: -3px;
+    padding-bottom: 11px;
+    padding: -37px;
+}
+
+
+.imgg4{
+  height: 56px;
+    width: 91px;
+    margin-top: 51px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.imgg5{
+    height: 37px;
+    margin-left: -50vh;
+    margin-top: -31px;
+    width: 95px;
+    padding-bottom: 11px;}
+
+
+@media( height >=700px){
+  .popupp-containerr {
+    display: none;
+      position: fixed;
+      top: -18%;
+      left: -43vh;
+    
+      width: 68vh;
+      padding: 20px;
+      background-color: #fff;
+      text-align: center;
+      height: 35vh;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+    margin-top: 2px;
+    width: 83px;
+    height: 23px;
+    margin-left: 305px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 3px;
+  }
+  .imgg5{
+    height: 37px;
+    margin-left: -54vh;
+    margin-top: -31px;
+    width: 95px;
+    padding-bottom: 11px;
+}
+.imgg1{
+  height: 23px;
+  margin-left: -462px;
+  margin-top: -14px;
+}
+
+.sec{
+  margin-top: -23px;
+  color: black;
+  margin-left: -183px;
+}
+.imgg2{
+  height: 57px;
+  width: 96px;
+  margin-left: 7px;
+  margin-top: -76px;
+  border: 2px solid black;
+}
+
+}
